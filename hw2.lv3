@@ -1,0 +1,9 @@
+fizz, buzz, a = map(int, input().split())
+count = 1
+
+while count <= a:
+    if count % fizz == 0: print('F', end='')
+    if count % buzz == 0: print('B', end='')
+    if count % fizz and count % buzz != 0: print(count, end='')
+    print(" ", end='')
+    count += 1

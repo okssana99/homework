@@ -1,0 +1,64 @@
+# if (умова) дія 
+a = b = 10
+c = 5
+d = 20
+if a == b: print(f"{a+b}")
+
+#if (умова) (блок дій у кілька рядків)
+a = b = 10
+c = 5
+d = 20
+if a == b:
+    print(f"{a+b=}")
+    print(f"{a-b=}")
+    print(f"{a==b=}")
+
+#if (умова) (блок дій у декілька рядків) else діяя
+a = b = 10
+c = 5
+d = 20
+if a < b:
+    print(True)
+else: print(False)
+#if (умова) (блок дій у кілька рядків) else (блок дій у кілька рядків)
+a = b = 10
+c = 5
+d = 20
+if a < b:
+    print(True)
+    print(f"{a+b=}")
+    print(f"{a-b=}")
+    print(f"{a==b=}")
+else:
+    print (False)
+    print (f"{a+b=}")
+    print (f"{a-b=}")
+    print (f"{a==b=}")
+#if (умова) (блок дій у кілька рядків) elif (умова) (блок дій у декілька рядків) else дію
+a = b = 10
+c = 5
+d = 20
+if a < b:
+    print(a ,"<" ,b)
+elif a > b:
+    print(a ,">" ,b)
+else: 
+    print(a ,"=" ,b)
+#if (умова) (блок дій у кілька рядків) elif (умова) (блок дій у декілька рядків) else (блок дій у декілька рядків)
+a = b = 10
+c = 5
+d = 20
+if a > b:
+    print(True)
+    print(f"{a+b=}")
+    print(f"{a-b=}")
+    print(f"{a==b=}")
+elif a < b:
+    print(False)
+    print(f"{a+b=}")
+    print(f"{a-b=}")
+    print(f"{a==b=}")
+else:
+    print(f"{a+b=}")
+    print(f"{a-b=}")
+    print(f"{a==b=}")

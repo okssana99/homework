@@ -1,0 +1,17 @@
+# Приклад 1
+a = 20
+s = 5
+if a > s:
+    print (True)
+else:
+    print (False)
+# Приклад 2
+print ("Hello, please enter a number")
+number = int(input())
+
+if (number > 100):
+    print("thanks good day :)")
+elif (number < 100):
+    print("give me more!")
+else:
+    print("OK")
